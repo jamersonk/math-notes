@@ -1,0 +1,155 @@
+\contentsline {chapter}{\numberline {1}Numbers and Algebra}{4}{}%
+\contentsline {section}{\numberline {1.1}Numbers and their Operations}{4}{}%
+\contentsline {subsection}{\numberline {1.1.1}Prime Factorisation \& its Applications}{4}{}%
+\contentsline {subsection}{\numberline {1.1.2}Approximation \& Estimation}{5}{}%
+\contentsline {subsubsection}{Significant Figures}{5}{}%
+\contentsline {subsection}{\numberline {1.1.3}Laws of Indices}{5}{}%
+\contentsline {section}{\numberline {1.2}Ratios \& Proportions}{6}{}%
+\contentsline {subsection}{\numberline {1.2.1}Ratios}{6}{}%
+\contentsline {subsection}{\numberline {1.2.2}Map Scales}{6}{}%
+\contentsline {subsection}{\numberline {1.2.3}Direct \& Inverse Proportions}{6}{}%
+\contentsline {section}{\numberline {1.3}Percentages}{6}{}%
+\contentsline {subsection}{\numberline {1.3.1}Expressing quantities as Percentages}{6}{}%
+\contentsline {subsubsection}{Example 6: Sale}{6}{}%
+\contentsline {subsubsection}{Example 7: Percentage Change}{7}{}%
+\contentsline {section}{\numberline {1.4}Rate \& Speed}{7}{}%
+\contentsline {subsection}{\numberline {1.4.1}Average Rate \& Average Speed}{7}{}%
+\contentsline {subsubsection}{Average Speed}{7}{}%
+\contentsline {subsection}{\numberline {1.4.2}Conversion of Units}{7}{}%
+\contentsline {section}{\numberline {1.5}Algebraic Expressions \& Formulae}{7}{}%
+\contentsline {subsection}{\numberline {1.5.1}Number Patterns}{7}{}%
+\contentsline {subsection}{\numberline {1.5.2}Factorisation \& Simplification}{7}{}%
+\contentsline {subsubsection}{Introduction to Factorisation}{7}{}%
+\contentsline {subsubsection}{Introduction to Simplificiation}{8}{}%
+\contentsline {subsubsection}{Factorisation of ax+bx+kay+kby}{8}{}%
+\contentsline {subsubsection}{Factorisation of Quadratic Expressions}{8}{}%
+\contentsline {subsubsection}{Special Quadratic Factorisation}{8}{}%
+\contentsline {subsection}{\numberline {1.5.3}Addition of Simple Algebraic Fractions}{8}{}%
+\contentsline {subsubsection}{Example 8}{8}{}%
+\contentsline {subsubsection}{Example 9}{8}{}%
+\contentsline {subsection}{\numberline {1.5.4}Subtraction of Simple Algebraic Fractions}{8}{}%
+\contentsline {subsubsection}{Example 10}{8}{}%
+\contentsline {subsection}{\numberline {1.5.5}Multiplication of Simple Algebraic Fractions}{8}{}%
+\contentsline {subsubsection}{Example 11}{8}{}%
+\contentsline {subsection}{\numberline {1.5.6}Division of Simple Algebraic Fractions}{9}{}%
+\contentsline {subsubsection}{Example 12}{9}{}%
+\contentsline {section}{\numberline {1.6}Functions \& Graphs}{9}{}%
+\contentsline {subsection}{\numberline {1.6.1}Graphs of Linear Functions}{9}{}%
+\contentsline {subsection}{\numberline {1.6.2}Graphs of Quadratic Functions}{10}{}%
+\contentsline {subsection}{\numberline {1.6.3}Graphs of Cubic Functions}{11}{}%
+\contentsline {subsection}{\numberline {1.6.4}Graphs of Exponential Functions ($y=ka^x$)}{11}{}%
+\contentsline {subsection}{\numberline {1.6.5}Graphs of Reciprocal Functions ($y=x^{-n}$)}{12}{}%
+\contentsline {section}{\numberline {1.7}Equations \& Inequalities}{12}{}%
+\contentsline {subsection}{\numberline {1.7.1}Solving Linear Equations}{12}{}%
+\contentsline {subsection}{\numberline {1.7.2}Solving Quadratic Equations}{13}{}%
+\contentsline {subsubsection}{Factorisation}{13}{}%
+\contentsline {subsubsection}{Completing the Square}{13}{}%
+\contentsline {subsubsection}{Quadratic Formula}{13}{}%
+\contentsline {subsection}{\numberline {1.7.3}Solving Simple Fractional Equations}{13}{}%
+\contentsline {subsubsection}{Example 13}{13}{}%
+\contentsline {subsection}{\numberline {1.7.4}Simultaneous Equations}{13}{}%
+\contentsline {subsubsection}{Example 14: Elimination}{14}{}%
+\contentsline {subsubsection}{Example 15: Substitution}{14}{}%
+\contentsline {subsubsection}{Solving Simultaneous Equations Graphically}{15}{}%
+\contentsline {section}{\numberline {1.8}Set Language \& Notation}{15}{}%
+\contentsline {subsection}{\numberline {1.8.1}The Set}{15}{}%
+\contentsline {subsubsection}{Defining a Set}{15}{}%
+\contentsline {subsubsection}{Elements}{15}{}%
+\contentsline {subsubsection}{Empty Set}{15}{}%
+\contentsline {subsubsection}{Equal Sets}{15}{}%
+\contentsline {subsubsection}{Complement}{15}{}%
+\contentsline {subsection}{\numberline {1.8.2}Union \& Intersect}{15}{}%
+\contentsline {subsubsection}{Union}{16}{}%
+\contentsline {subsubsection}{Intersect}{16}{}%
+\contentsline {subsection}{\numberline {1.8.3}Subsets \& Proper Subsets}{16}{}%
+\contentsline {subsubsection}{Subsets}{16}{}%
+\contentsline {subsubsection}{Proper Subset}{16}{}%
+\contentsline {subsection}{\numberline {1.8.4}Venn Diagrams}{16}{}%
+\contentsline {section}{\numberline {1.9}Matrices}{20}{}%
+\contentsline {subsection}{\numberline {1.9.1}Addition \& Subtraction of Matrices}{20}{}%
+\contentsline {subsubsection}{Addition of Matrices}{20}{}%
+\contentsline {subsubsection}{Subtraction of Matrices}{20}{}%
+\contentsline {subsection}{\numberline {1.9.2}Matrix Multiplication}{20}{}%
+\contentsline {subsubsection}{Scalar Multiplication}{20}{}%
+\contentsline {subsubsection}{Multiplication of a Matrix by another Matrix}{20}{}%
+\contentsline {chapter}{\numberline {2}Geometry \& Measurement}{22}{}%
+\contentsline {section}{\numberline {2.1}Angles, Triangles, \& Polygons}{22}{}%
+\contentsline {subsection}{\numberline {2.1.1}Types of Angles}{22}{}%
+\contentsline {subsubsection}{Right Angles}{22}{}%
+\contentsline {subsubsection}{Acute Angles}{22}{}%
+\contentsline {subsubsection}{Obtuse Angles}{22}{}%
+\contentsline {subsubsection}{Reflex Angle}{22}{}%
+\contentsline {subsection}{\numberline {2.1.2}Geometry of Lines}{23}{}%
+\contentsline {subsubsection}{Angles of a Straight Lines}{23}{}%
+\contentsline {subsubsection}{Angles at a Point}{23}{}%
+\contentsline {subsubsection}{Vertically Opposite Angles}{23}{}%
+\contentsline {subsection}{\numberline {2.1.3}Geometry of Parallel Lines}{23}{}%
+\contentsline {subsubsection}{Corresponding Angles}{23}{}%
+\contentsline {subsubsection}{Alternate Angles}{24}{}%
+\contentsline {subsubsection}{Interior Angles}{24}{}%
+\contentsline {subsection}{\numberline {2.1.4}Properties of Triangles}{24}{}%
+\contentsline {subsubsection}{Isosceles Triangle}{24}{}%
+\contentsline {subsubsection}{Equilateral Triangle}{24}{}%
+\contentsline {subsection}{\numberline {2.1.5}Polygons}{24}{}%
+\contentsline {section}{\numberline {2.2}Congruence \& Similarity}{25}{}%
+\contentsline {subsection}{\numberline {2.2.1}Congruence}{25}{}%
+\contentsline {subsection}{\numberline {2.2.2}Congruence Tests}{25}{}%
+\contentsline {subsubsection}{SSS Test}{25}{}%
+\contentsline {subsubsection}{SAS Test}{25}{}%
+\contentsline {subsubsection}{AAS Test}{25}{}%
+\contentsline {subsubsection}{RHS Test}{25}{}%
+\contentsline {section}{\numberline {2.3}Similarity}{25}{}%
+\contentsline {subsection}{\numberline {2.3.1}Similarity Test}{25}{}%
+\contentsline {subsubsection}{SSS Test}{25}{}%
+\contentsline {subsubsection}{AA Test}{25}{}%
+\contentsline {subsubsection}{SAS Test}{25}{}%
+\contentsline {subsection}{\numberline {2.3.2}Relation of Similar Plane Figures}{26}{}%
+\contentsline {subsection}{\numberline {2.3.3}Relation of Similar Solids}{26}{}%
+\contentsline {section}{\numberline {2.4}Circle Properties}{26}{}%
+\contentsline {subsubsection}{Perpendicular Bisector of Chord}{26}{}%
+\contentsline {subsubsection}{Equal Chords}{26}{}%
+\contentsline {subsubsection}{Tangent Perpendicular to Radius}{26}{}%
+\contentsline {subsubsection}{Tangents from External Point}{26}{}%
+\contentsline {subsubsection}{Angle at Center}{26}{}%
+\contentsline {subsubsection}{Angle in a Semicircle}{27}{}%
+\contentsline {subsubsection}{Angles in Same Segment}{27}{}%
+\contentsline {subsubsection}{Angles in Opposite Segments}{27}{}%
+\contentsline {section}{\numberline {2.5}Trigonometry}{27}{}%
+\contentsline {subsection}{\numberline {2.5.1}Pythagoras' Theorem}{27}{}%
+\contentsline {subsection}{\numberline {2.5.2}Trigonometric Ratios}{27}{}%
+\contentsline {subsection}{\numberline {2.5.3}Area of Triangle}{27}{}%
+\contentsline {subsection}{\numberline {2.5.4}Sine Rule}{27}{}%
+\contentsline {subsection}{\numberline {2.5.5}Cosine Rule}{28}{}%
+\contentsline {section}{\numberline {2.6}Mensuration}{28}{}%
+\contentsline {subsection}{\numberline {2.6.1}Area of a Triangle}{28}{}%
+\contentsline {subsection}{\numberline {2.6.2}Area of a Trapezium}{28}{}%
+\contentsline {subsection}{\numberline {2.6.3}Area of a Parallelogram}{28}{}%
+\contentsline {subsection}{\numberline {2.6.4}Circles}{28}{}%
+\contentsline {subsubsection}{Area}{28}{}%
+\contentsline {subsubsection}{Circumference}{28}{}%
+\contentsline {subsection}{\numberline {2.6.5}Cubes \& Cuboids}{28}{}%
+\contentsline {subsection}{\numberline {2.6.6}Cylinders}{29}{}%
+\contentsline {subsubsection}{Surface Area}{29}{}%
+\contentsline {subsubsection}{Volume}{29}{}%
+\contentsline {subsection}{\numberline {2.6.7}Spheres}{29}{}%
+\contentsline {subsubsection}{Surface Area}{29}{}%
+\contentsline {subsubsection}{Volume}{29}{}%
+\contentsline {subsection}{\numberline {2.6.8}Pyramid}{29}{}%
+\contentsline {subsection}{\numberline {2.6.9}Cone}{30}{}%
+\contentsline {subsubsection}{Surface Area}{30}{}%
+\contentsline {section}{\numberline {2.7}Arc Length, Sector Area, and Area of a Segment}{30}{}%
+\contentsline {subsection}{\numberline {2.7.1}Radians}{30}{}%
+\contentsline {subsection}{\numberline {2.7.2}Arc Length}{30}{}%
+\contentsline {subsection}{\numberline {2.7.3}Sector Area}{30}{}%
+\contentsline {section}{\numberline {2.8}Coordinate Geometry}{30}{}%
+\contentsline {subsection}{\numberline {2.8.1}Gradient}{31}{}%
+\contentsline {subsection}{\numberline {2.8.2}Length of Line Segment}{31}{}%
+\contentsline {subsection}{\numberline {2.8.3}Equation of a Straight Line}{31}{}%
+\contentsline {section}{\numberline {2.9}Vectors in Two Dimensions}{31}{}%
+\contentsline {subsection}{\numberline {2.9.1}Operations with Vectors}{31}{}%
+\contentsline {subsection}{\numberline {2.9.2}Position Vectors}{31}{}%
+\contentsline {subsection}{\numberline {2.9.3}Other Useful Properties}{32}{}%
+\contentsline {subsubsection}{When $x=y$,}{32}{}%
+\contentsline {subsubsection}{When $x \parallel y$,}{32}{}%
+\contentsline {subsubsection}{Collinearity of Points}{32}{}%
+\contentsline {chapter}{\numberline {3}Statistics \& Probability}{33}{}%

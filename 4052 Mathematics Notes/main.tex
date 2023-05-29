@@ -1,0 +1,1248 @@
+\documentclass{report}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage[a4paper]{geometry}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{gensymb}
+\usepackage{tkz-euclide}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{flushleft}
+        \vspace*{1cm}
+
+         \LARGE
+	Notes
+	        
+        \vspace{0.5cm}
+        
+        \Huge
+        \textbf{Mathematics}
+
+        \vfill
+        
+        \textbf{James Kuang Zhongchuan}
+            
+    \end{flushleft}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\newpage
+\begin{center}
+This page was left blank intentionally.
+\end{center}
+
+\chapter{Numbers and Algebra}
+
+
+\section{Numbers and their Operations}
+
+
+\subsection{Prime Factorisation \& its Applications}
+
+\begin{itemize}
+    \item Prime factorisation is the process whereby a number is factorised into prime numbers only.
+\end{itemize}
+Performing Prime Factorisation:
+\begin{enumerate}
+    \item Divide the number by the lowest possible prime number.
+    \item Repeat Step 2 until the number is 1.
+    \item Express the number as a multiple of its prime factors.
+\end{enumerate}
+
+\subsubsection*{Highest Common Factor}
+
+Given any two numbers, the HCF can be found through prime factorisation.
+
+\subsubsection*{Example 1}
+
+\begin{flushleft}
+    Given tzhe numbers 108, and 132, we can express them as their prime factors as follows.\par
+    \begin{equation} \label{HCF1}
+    108=2^2\times3^3
+    \end{equation}
+    \begin{equation}\label{HCF2}
+        132=2^2\times3\times11
+    \end{equation}
+
+The \textbf{highest common factor} can be found by multiplying the \textbf{lowest power} of the common factors together. In this case, it is $2^2$ and $3^1$.
+\par
+Therefore, the highest common factor (HCF), is
+    \[HCF=2^2\times3=12\]
+\par
+
+\subsubsection*{Lowest Common Multiple}
+Given any two numbers, the lowest common multiple can be found by prime factorisation.
+
+\subsubsection*{Example 2}
+We shall use the same numbers as in Equation \ref{HCF1} and \ref{HCF2}, 108 and 132.
+The \textbf{lowest common multiple} is found by multiplying the highest power of \textbf{all} factors of both numbers of concern. In this case it is $2^2$,$3^3$, and $11$.\par
+Therefore, the lowest common multiple (LCM), is
+\[LCM=2^2\times3^3\times11=1188\]
+
+\subsubsection*{Squares}
+Perfect squares can be identified from their prime factors.
+\newline
+\textbf{Any number whose prime factors all have exponents divisible by 2 is a perfect square.}
+
+\subsubsection*{Cubes}
+Likewise, perfect cubes can also be identified from their prime factors.
+\newline
+\textbf{Any number whose prime factors all have exponents divisible by 3 is a perfect cube.}
+
+
+\subsection{Approximation \& Estimation}
+In all Mathematics papers at the GCE O-Level, the final answer, unless exact or in degrees, must be rounded to 3 significant figures, unless otherwise stated.
+
+\subsubsection{Significant Figures}
+\begin{enumerate}
+    \item Any number before the decimal point is a significant figure.
+    \item Any non-zero number after the decimal point is a significant figure.
+    \item A zero number after the decimal point after a non-zero number is a significant figure.
+\end{enumerate}
+
+\subsubsection*{Standard Form}
+Standard form, otherwise known as \textit{Scientific Notation} is a number in the form $A\times10^n$, where $0<A<10$.
+
+
+\subsection{Laws of Indices}
+\[n^x\times n^y=n^{x+y}\]
+\[\frac{n^x}{n^y}=n^{x-y}\]
+\[\left(a^m\right)^n=a^{mn}\]
+\[\left( \frac{a}{b} \right)^n = \frac{a^n}{b^n}\]
+\[\left(ab\right)^n=a^n b^n\]
+\[\sqrt[^n]{x}=a^{\frac{m}{n}}\]
+\[a^0=1\]
+
+
+\section{Ratios \& Proportions}
+
+\subsection{Ratios}
+A ration is a way of comparing two or more quantities of the same kind. A ration has no unit. Ratios can be converted into fractions.
+\begin{equation}\label{ratio1}
+a:b=\frac{a}{b}
+\end{equation}
+
+\subsection{Map Scales}
+Map scales involve the comparison between two quantities of different units. When performing calculations, you \textbf{must} convert them to be the same unit.
+\begin{equation}
+    1cm^2:1000km^2 \rightarrow 1cm^2:1000000000cm^2
+\end{equation}
+To assist in this endeavour, some common conversions have been detailed below.
+\[1cm^2\rightarrow0.000001km^2\]
+
+\subsection{Direct \& Inverse Proportions}
+\subsubsection*{Direct Proportion}
+\begin{equation}
+    y=kx, k=constant.
+\end{equation}
+When two variables are directly proportional, their relationship is linear.
+
+\subsubsection*{Inverse Proportion}
+\begin{equation}
+    y=\frac{k}{x}, k=constant.
+\end{equation}
+When two variables are inversely proportional, their relationship is non-linear.
+
+\section{Percentages}
+\subsection{Expressing quantities as Percentages}
+Quantities can be expressed as percentages of one another.
+\begin{equation}
+    \frac{x}{n}\times 100\%
+\end{equation}
+Where x is  to be expressed as a percentage of n.
+\par
+\subsubsection*{Example 5: Sale}
+A TV is on sale at 80\% of its original price. The sale price is $\$40$. Calculate the original price.
+\[\$40\div 80\%=\$50\]
+
+\subsubsection{Example 6: Sale}
+A mobile phone is on sale at 95\% of its original price. Its original price is $\$30$. Calculate the sale price.
+\[\$30\times95\%=\$28.50\]
+
+\subsubsection{Example 7: Percentage Change}
+A mobile phone, originally sold for \$95, is on sale, and is being sold for \$40. Calculate the percentage change.
+\begin{equation}
+    \frac{x-y}{x}\times100\%=n\%
+\end{equation}
+
+\section{Rate \& Speed}
+\subsection{Average Rate \& Average Speed}
+\subsubsection*{Average Rate}
+\begin{equation}
+    Rate=\frac{\Delta x}{\Delta t}
+\end{equation}
+Where x is the change in quantity.
+
+\subsubsection{Average Speed}
+\begin{equation}
+    v = \frac{\Delta s}{\Delta t}
+\end{equation}
+Where v is Average Speed, s is total distance travelled, and t is total time taken.
+
+\subsection{Conversion of Units}
+\[
+1 m/s\rightarrow 3.6 km/h
+\]
+\[
+1 m/s\rightarrow 100 cm/s
+\]
+
+\section{Algebraic Expressions \& Formulae}
+
+\subsection{Number Patterns}
+Given a constant difference between terms,
+\begin{equation}
+    T_n=T_1+(n-1)d
+\end{equation}
+Given a multiplied difference between terms,
+\begin{equation}
+    T_n=T_1\times r^{n-1}
+\end{equation}
+
+Given a varying constant difference between terms,
+\begin{equation}
+    T_n=T_1+(n-1)d_1+\frac{1}{2}\left(n-1)(n-2\right)d_2+\cdots
+\end{equation}
+
+\subsection{Factorisation \& Simplification}
+
+\subsubsection{Introduction to Factorisation}
+The process of removing a common factor from a term is called \textbf{factorisation}.
+\begin{equation}
+    ab+ac=a\left(b+c\right)
+\end{equation}
+
+\subsubsection{Introduction to Simplificiation}
+The process of simplifying an algebraic term is called \textbf{simplification}.
+\begin{equation}
+    \frac{2a(b+b^2)}{a}+2a = a(b^2+b)+2a
+\end{equation}
+
+\subsubsection{Factorisation of ax+bx+kay+kby}
+\par
+\begin{equation}
+    ax+bx+kay+kby = x(a+b)+ky(a+b) = (x+ky)(a+b)
+\end{equation}
+
+\subsubsection{Factorisation of Quadratic Expressions}
+The expression of $ax^2+bx+c$ can be expressed as the product of two terms.
+\begin{equation}
+    ax^2+bx+c = (nx+q)(mx+r)
+\end{equation}
+\textit{Please refer to the textbook for how to factorise manually.}
+
+\subsubsection{Special Quadratic Factorisation}
+\begin{equation}
+    (a\pm b)^2=a^2\pm2ab+b^2
+\end{equation}
+\begin{equation}
+    a^2-b^2=(a+b)(a-b)
+\end{equation}
+
+\subsection{Addition of Simple Algebraic Fractions}
+\subsubsection{Example 8}
+\[
+\frac{1}{x-2}+\frac{2}{x-3}=\frac{x-3+2(x-2)}{(x-2)(x-3)}=\frac{3x-7}{(x-2)(x-3)}
+\]
+\subsubsection{Example 9}
+\[
+\frac{1}{x^2-9}+\frac{2}{x-3}=\frac{1}{(x-3)(x+3)}+\frac{2}{x-3}=\frac{1+2(x+3)}{(x-3)(x+3)}=\frac{2x+7}{(x-3)(x+3)}
+\]
+
+\subsection{Subtraction of Simple Algebraic Fractions}
+\subsubsection{Example 10}
+\[
+\frac{1}{x-2}-\frac{2}{x-3}=\frac{x-3-2(x-2)}{(x-2)(x-3)}=\frac{1-x}{(x-3)(x-2)}
+\]
+
+\subsection{Multiplication of Simple Algebraic Fractions}
+\subsubsection{Example 11}
+Simplify $\frac{3a}{4b^2}\times\frac{5ab}{3}$.
+\[\frac{3a}{4b^2}\times\frac{5ab}{3}=\frac{15a^2b}{12b^2}=\frac{5a^2}{4b}\]
+
+\subsection{Division of Simple Algebraic Fractions}
+\subsubsection{Example 12}
+Simplify $\frac{3a}{4}\div\frac{9a^2}{10}$.
+\[\frac{3a}{4}\div\frac{9a^2}{10}=\frac{3a}{4}\times\frac{10}{9a^2}=\frac{30a}{36a^2}=\frac{5}{6a}\]
+
+
+\section{Functions \& Graphs}
+
+\subsection{Graphs of Linear Functions}
+The graph of a linear function in the form $y=mx+c$ is displayed below.
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+]
+\addplot [
+    domain=-5:5, 
+    samples=5, 
+    color=red,
+]{x};
+\end{axis}
+\end{tikzpicture}
+\par
+In a graph of a linear function, the constant $m$ determines the gradient, with $m<0$ being a negative gradient, and $m>0$ being a positive gradient. The constant $c$ determines the y-intercept of the line.
+
+\subsection{Graphs of Quadratic Functions}
+A graph of a quadratic function in the form $y=ax^2+bx+c$ is shown below.
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+]
+\addplot [
+    domain=-10:10, 
+    samples=100, 
+    color=blue,
+]{x^2-4};
+\end{axis}
+\end{tikzpicture}
+\par The turning points of a quadratic curve can be determined by factorising the quadratic equation.
+\begin{equation}
+    ax^2+bx+c=(x-p)(x-q)
+\end{equation}
+The turning points are at $x=p$ and $x=q$. When $a<0$, the graph is in a \textit{$\cup$} form. When $a>0$, the graph is in a \textit{$\cap$}. 
+\par
+The equation of the \textbf{line of symmetry} can be calculated as follows.
+\begin{equation}
+    x=\frac{x_1+x_2}{2}
+\end{equation}
+This equation also gives the x-coordinate of the turning point. When in the form $y=(x-p)^2+q$, the turning point of the quadratic curve is at the coordinates $(p,q)$.
+
+\subsection{Graphs of Cubic Functions}
+A graph of a cubic function in the form $y=ax^3+bx^2+cx+d$ is shown below.
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+]
+\addplot [
+    domain=-10:10, 
+    samples=50, 
+    color=blue,
+]{x^3};
+\end{axis}
+\end{tikzpicture} \par
+As $b$ increases, the graph shifts upwards. For $c<0$, the graph shifts right. For $c>0$, the graph shifts left.
+\subsection{Graphs of Exponential Functions ($y=ka^x$)}
+A graph of an exponential function in the form $y=ka^x$ is shown below.
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+]
+\addplot [
+    domain=-2:2, 
+    samples=50, 
+    color=blue,
+]{3^x};
+\end{axis}
+\end{tikzpicture}
+\par
+An exponential function \textbf{never} cuts the $x-axis$. The value of $k$ determines the y-intercept. When $ka>0$, the value of y increases as x increases. When $ka<0$, the value of y decreases as x increases.
+
+\subsection{Graphs of Reciprocal Functions ($y=x^{-n}$)}
+The graph of a reciprocal function in the form $y=x^{-1}$ is shown below.
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+]
+\addplot [
+    domain=-5:5, 
+    samples=70, 
+    color=blue,
+]{1/x};
+\end{axis}
+\end{tikzpicture}\par
+The graph of a reciprocal function \textbf{never} cuts the y-axis.\par
+
+The graph of a reciprocal function in the form $y=2x^{-2}$ is shown below.
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+]
+\addplot [
+    domain=-5:5, 
+    samples=100, 
+    color=blue,
+]{2/x^2};
+\end{axis}
+\end{tikzpicture}\par
+Given $y=2x^{2}$, when $a<0$, the graph is wholly negative.. When $a>0$, the graph is wholly positive.
+
+
+\section{Equations \& Inequalities}
+
+\subsection{Solving Linear Equations}
+Linear equations in the form $mx+c$ can be done trivially.
+\begin{equation}
+    mx+c=0
+\end{equation}
+In order to solve the equation, we need to make $x$ the subject of the equation.
+\begin{equation}
+    x=\frac{-c}{m}
+\end{equation}
+
+\subsection{Solving Quadratic Equations}
+\subsubsection{Factorisation}
+By factorising a quadratic equation into the form $(x-p)(x-q)$, the quadratic equation can be solved trivially.
+\[
+    (x-p)(x-q) = 0
+\]
+By zero product rule,
+\begin{center}
+    $x-p=0$ and $x-q=0$ \par
+    $x=p$ and $x=q$
+\end{center}
+
+\subsubsection{Completing the Square}
+\begin{equation}
+ax^2+bx+c_1=ax^2+bx+c_1+\left(\frac{b}{2}\right)^2-\left(\frac{b}{2}\right)^2=\left(ax+\frac{b}{2}\right)^2+c_2
+\end{equation}
+Thereafter, solving for $x$ can be done easily.\par
+
+\subsubsection{Quadratic Formula}
+Quadratic Equations can be solved using the Quadratic Formula.
+\begin{equation}
+    x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\end{equation}
+
+\subsection{Solving Simple Fractional Equations}
+\subsubsection{Example 13}
+\[
+\frac{x}{3}+\frac{x-2}{4}=3
+\]
+\[
+4x+3(x-2)=3(4)(3)
+\]
+\[
+7x-6=36
+\]
+\[
+7x=30
+\]
+\[
+x=6
+\]
+\subsection{Simultaneous Equations}
+Simultaneous Equations involving two unknown variables can be solved either through elimination or substitution. We shall demonstrate elimination through an example.
+
+\subsubsection{Example 14: Elimination}
+\begin{equation} \label{eq:E14.1}
+    4x-3y=18 
+\end{equation}
+\begin{equation}  \label{eq:E14.2}
+    7x+5y=11
+\end{equation}
+In order to solve this problem, we must eliminate one of the unknown variables. We shall eliminate $y$ in this case. Multiplying \ref{eq:E14.1} by 5, we get $20x-15y=90$. Multiplying \ref{eq:E14.2} by 3, we get $21x+15y=33$. We can now eliminate y.
+\[
+    20x+21x=90+33
+\]
+\[
+41x=123
+\]
+\[
+x=3
+\]
+We can now substitute $x$ to find $y$. We shall subsitute $x=5$ into \ref{eq:E14.1}.
+\[
+    4(3)-3y=18
+\]
+\[
+12-18=3y
+\]
+\[
+y=-2
+\]
+The solution is $x=3$,$y=-2$. We have now solved this simultaneous equation by elimination.
+\newline
+\newline
+
+We will now perform another example to solve this simultaneous equation, this time by substitution.
+\subsubsection{Example 15: Substitution}
+
+\begin{equation}
+4x-3y=18 \tag{\ref{eq:E14.1} revisited}
+\end{equation}
+
+\begin{equation*}
+7x+5y=11 \tag{\ref{eq:E14.2} revisited}
+\end{equation*}
+In order to perform substitution, we need to make either $x$ or $y$ the subject of either equation. We shall make y the subject of \ref{eq:E14.1} in this case.
+\[
+4x-18=3y
+\]
+\begin{equation}
+    \frac{4x}{3}-6=y
+\end{equation}
+We will now substitute $y=\frac{4x}{3}-6$ into \ref{eq:E14.2}.
+\footnote{We cannot substitute into \ref{eq:E14.1} as this will result in 0!}
+\[
+7x+5\left(\frac{4x}{3}-6\right)=11
+\]
+\[
+\frac{20x}{3}+7x-30=11
+\]
+\[
+20x+21x-90=33
+\]
+\[
+41x=123
+\]
+\[
+x=3
+\]
+To solve for y in this case is the same as in that of Elimination.
+\subsubsection{Solving Simultaneous Equations Graphically}
+Simultaneous equations can also be solved graphically. To do so, you plot both graphs, and extend them until the intersect. The solution to the simultaneous equations is the coordinates of the point of intersection.
+
+\section{Set Language \& Notation}
+\subsection{The Set}
+\subsubsection{Defining a Set}
+A set $A$ is a set of things which fulfill a specific, pre-set criteria. A set is declared as follows.
+\begin{equation} \label{eqn:sets1A}
+    A=\{1,2,3,4,5\}
+\end{equation}
+Where $A$ is the set of integers from 1 to 5.
+
+Sets can also be declared through statements. For example,
+\begin{equation} \label{eqn:sets1B}
+    B=\{x:x\text{ is a positive integer less than 5}\}
+\end{equation}
+
+\subsubsection{Elements}
+Elements are what the things in a set are called. Where an element is part of a set, the symbol $\in$ is used. In example, $3\in A$. Where an element is not part of a set, the symbol $\notin$ is used instead. In example, $6\notin A$. The number of elements in a set is $n\left(A\right)$. 
+\newline
+\newline
+\textit{
+$\in$ is read as ...is an element of..., and $\notin$ is read as ...is not an element of...
+}
+
+\subsubsection{Empty Set}
+Where a set contains no elements, it is called an empty, or nil set. An empty set can be declared in two different manners. 
+\[
+C=\{ \}
+\]
+\[
+C = \emptyset
+\]
+
+\subsubsection{Equal Sets}
+For two sets $A$ and $B$ to be equal, \textbf{all} of the elements in set $A$ must also be in set $B$, and vice-versa. The number of elements in both set $A$ and set $B$ must also be equal. Only then will $A=B$.
+
+\subsubsection{Complement}
+The complement of a Set $A$ is the set of all elements within the universal set $\xi$ not in Set $A$. It is denoted as $A'$ and read as 'A' complement.
+
+\subsection{Union \& Intersect}
+We shall now introduce two important functions which can be applied to sets, union $\cup$ and intersect $\cap$.
+
+\subsubsection{Union}
+Where two sets are unioned together, \textbf{all} of the elements of both sets are combined into one new set.
+\begin{gather*}
+    A=\{1,2,3,4,5\}\\
+    B=\{4,5,6,7,8\}
+\end{gather*}
+\begin{equation}
+    A\cup B = \{1,2,3,4,5,6,7,8\}
+\end{equation}
+$A\cup B$ is read as A union B. We have now completed the union.
+
+\subsubsection{Intersect}
+Where two sets intersect, only the \textbf{common} elements of both sets are combined into one new set.
+\begin{gather*}
+    A=\{1,2,3,4,5\}\\
+    B=\{4,5,6,7,8\}
+\end{gather*}
+\begin{equation}
+    A\cap B = \{4,5\}
+\end{equation}
+$A\cap B$ is read as A intersect B. We have now completed the intersect.
+
+\subsection{Subsets \& Proper Subsets}
+\subsubsection{Subsets}
+A subset is a set $A$, which solely contains the elements contained within another set $B$. It is denoted by the symbol, $\subseteq$.
+
+In such a case, there are two possibilities.
+\begin{enumerate}
+    \item $A=B$,
+    \item $A$ is a proper subset of $B$.
+\end{enumerate}
+
+\subsubsection{Proper Subset}
+For two sets (ie. $A$ and $B$) to be a proper subset of one another, every element in $B$ must be in $A$, but $B\neq A$. It is denoted with the symbol, $\subset$.
+\newline
+\newline
+\textbf{All proper subsets are subsets, but not all subsets are proper.}
+
+\subsection{Venn Diagrams}
+Venn Diagrams provide a graphical method to display and compare sets. It will be explained with the use of several examples. Throughout these examples, we will reference the sets listed below.
+\begin{equation} \label{eq:sets.venn1}
+    A=\{1,2,3,4,5,6,7,8\}
+\end{equation}
+\begin{equation} \label{eq:sets.venn2}
+    B=\{2,4,6,8\}
+\end{equation}
+
+\newpage
+\begin{center}
+    This page was left blank intentionally.
+    \newpage
+    This page was left blank intentionally.
+    \newpage
+    This page was left blank intentionally.
+    \newpage
+\end{center}
+
+\section{Matrices}
+Matrices are a way to display large collections of data. They are useful in performing calculations on a large scale.
+\[
+  A_{2\times2} =
+  \left[ {\begin{array}{cc}
+    a_{11} & a_{12} \\
+    a_{21} & a_{22} \\
+  \end{array} } \right]
+\]
+In this instance, the matrix $A$ is a $2\times 2$ matrix.  The order of matrices is the number of rows multiplied by the number of columns.
+\begin{equation}
+	order = r\times c
+\end{equation}
+
+\subsection{Addition \& Subtraction of Matrices}
+The addition \& subtraction of matrices can be done trivially.
+\subsubsection{Addition of Matrices}
+% eqn
+\begin{equation}
+A=
+\begin{pmatrix}
+a & b
+\end{pmatrix} +
+\begin{pmatrix}
+c & d
+\end{pmatrix} = 
+\begin{pmatrix}
+a + c & b + d
+\end{pmatrix}
+\end{equation}
+% end
+Matrices can only be added to one another if they have the \textbf{same order}.
+
+\subsubsection{Subtraction of Matrices}
+% eqn
+\begin{equation}
+A=
+\begin{pmatrix}
+a & b
+\end{pmatrix} -
+\begin{pmatrix}
+c & d
+\end{pmatrix} = 
+\begin{pmatrix}
+a - c & b - d
+\end{pmatrix}
+\end{equation}
+% end
+Like with addition, matrices can only be subtracted from one another if they have the same order.
+
+\subsection{Matrix Multiplication}
+\subsubsection{Scalar Multiplication}
+Multiplication of a matrix by a scalar is done easily. It is demonstrated below.
+\begin{equation}
+k
+\begin{pmatrix}
+	a & b \\
+	c & d
+\end{pmatrix} = 
+\begin{pmatrix}
+	ka & kb \\
+	kc & kd
+\end{pmatrix}
+\end{equation}
+
+\subsubsection{Multiplication of a Matrix by another Matrix}
+Multiplication of a matrix by another matrix requires the observation of several rules.
+
+\begin{enumerate}
+	\item The number of columns of the previous matrix must equal the number of rows in the following matrix.
+	\begin{enumerate}
+		\item If they are not then the product is \textbf{not defined}.
+	\end{enumerate}
+	\item The dimensions of the resulting matrix, is equal to the number of rows of matrix 1 and the number of columns of matrix 2.
+\end{enumerate}
+
+In example, 
+\begin{equation}
+	\begin{pmatrix}
+	a_{11} & a_{12} & a_{13} \\
+	a_{21} & a_{22} & a_{23}
+	\end{pmatrix}
+	\times
+	\begin{pmatrix}
+	b_{11} & b_{12}\\
+	b_{21} & b_{22} \\
+	b_{31} & b_{32}
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+	c_{11} & c_{12} \\
+	c_{21} & c_{22} \\
+	\end{pmatrix}
+\end{equation}
+In order to find the value of matrix C, row 1, we multiply the entire of row 1 of matrix 1 with column 1 of matrix 2 using the dot product.
+\begin{equation}
+c_{11} = 
+\begin{pmatrix}
+a_{11} & a_{12} & a_{13}
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+b_{11} & b_{21} & b_{31}
+\end{pmatrix}
+=
+a_{11}b_{11} + a_{12}b_{21} + a_{13}b_{31}
+\end{equation}
+We repeat this for the entirety of matrix C. Therefore,
+\begin{equation}
+C =
+\begin{pmatrix}
+a_{11}b_{11} + a_{12}b_{21} + a_{13}b_{31} & a_{11}b_{12} + a_{12}b_{22} + a_{13}b_{32} \\
+a_{21}b_{11} + a_{22}b_{21} + a_{23}b_{31} & a_{21}b_{12} + a_{22}b_{22} + a_{33}b_{32} 
+\end{pmatrix}
+\end{equation}
+
+\chapter{Geometry \& Measurement}
+\section{Angles, Triangles, \& Polygons}
+\subsection{Types of Angles}
+\subsubsection{Right Angles}
+
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0) -- (4,0);
+\draw (2,0) -- (2,1.4);
+\draw (2,0.2) -- (2.2,0.2) -- (2.2,0);
+\end{tikzpicture}
+\end{center}
+A right angle is an angle which is at exactly $90\degree$.
+
+\subsubsection{Acute Angles}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0) -- (4,0);
+\draw (2,0) -- (2.5,1.4);
+\draw (2.2,0) arc (0:75:0.2cm);
+\end{tikzpicture}
+\end{center}
+An acute angle is an angle $\theta$, where $0\degree < \theta < 90\degree$.
+
+\subsubsection{Obtuse Angles}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0) -- (4,0);
+\draw (2,0) -- (1.0,1.4);
+\draw (2.2,0) arc (0:125:0.2cm);
+\end{tikzpicture}
+\end{center}
+An obtuse angle is an angle $\theta$, where $90\degree < \theta < 180\degree$.
+
+\subsubsection{Reflex Angle}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0) -- (4,0);
+\draw (2,0) -- (1.3,-1.4);
+\draw (2.2,0) arc (0:240:0.2cm);
+\end{tikzpicture}
+\end{center}
+A reflex angle is an angle $\theta$, where $180\degree < \theta < 360\degree$.
+
+
+\subsection{Geometry of Lines}
+\subsubsection{Angles of a Straight Lines}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0) -- (4,0);
+\draw (2,0) -- (2.5,1.4);
+\draw (2.2,0) arc (0:75:0.2cm);
+\end{tikzpicture}
+\end{center}
+The sum of the angles on a straight line is equal to $180\degree$.
+\[
+\text{Rule: Sum of Angles on a Straight Line is 180\degree}.
+\]
+
+\subsubsection{Angles at a Point}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,1) -- (4,1);
+\draw (1.8,0) -- (2.2,2);
+\draw (2.2,1) arc (0:75:0.2cm);
+\end{tikzpicture}
+\end{center}
+
+The sum of angles about a point is equal to $360\degree$.
+\[
+\text{Rule: Sum of angles about a point is 360\degree}.
+\]
+
+\subsubsection{Vertically Opposite Angles}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,1) -- (4,1);
+\draw (1.8,0) -- (2.2,2);
+\draw (2.2,1) arc (0:75:0.2cm);
+\draw (1.8,1) arc (180:255:0.2cm);
+\end{tikzpicture}
+\end{center}
+
+Two angles directly opposite of one another at a point, between any two line segments are equal.
+\[
+\text{Rule: Vertically Opposite Angles}
+\]
+
+\subsection{Geometry of Parallel Lines}
+\subsubsection{Corresponding Angles}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0.5) -- (4,0.5);
+\draw (0,1.5) -- (4,1.5);
+\draw (1,0) -- (1.6,2);
+\draw (2.4,0) -- (3,2);
+\draw (1.65,1.5) arc (0:75:0.2cm);
+\draw (1.35,0.5) arc (0:75:0.2cm);
+\draw (2.75,0.5) arc (0:75:0.2cm);
+\end{tikzpicture}
+\end{center}
+Within two sets of parallel lines, all sketched angles are equal.
+\[
+\text{Rule: Corresponding Angles, Parallel Lines}
+\]
+
+\subsubsection{Alternate Angles}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0.5) -- (4,0.5);
+\draw (0,1.5) -- (4,1.5);
+\draw (1,0) -- (1.6,2);
+\draw (2.4,0) -- (3,2);
+\draw (1.35,0.5) arc (0:75:0.2cm);
+\draw (1.25,1.5) arc (180:255:0.2cm);
+\draw (2.75,0.5) arc (0:75:0.2cm);
+\draw (2.65,1.5) arc (180:255:0.2cm);
+\end{tikzpicture}
+\end{center}
+
+Within two sets of parallel lines, all sketched angles are equal.
+\[
+\text{Rule: Alternate Angles, Parallel Lines}
+\]
+
+\subsubsection{Interior Angles}
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0.5) -- (4,0.5);
+\draw (0,1.5) -- (4,1.5);
+\draw (1.7,0) -- (2.3,2);
+\draw (2.05,0.5) arc (0:75:0.2cm);
+\draw (2.1,1.30) arc (255:360:0.2cm);
+\end{tikzpicture}
+\end{center}
+
+The sum of interior angles of a parallelogram is $360\degree$.\\
+The sum of the sketched angles is equal to $180\degree$.
+\[
+\text{Rule: Interior Angles, Parallel Lines}
+\]
+
+\subsection{Properties of Triangles}
+\begin{equation}
+\angle Total = 180 \degree
+\end{equation}
+The sum of interior angles of a triangle is equal to 180\degree.
+\[
+\text{Rule: Sum of Angles in a Triangle}
+\]
+\subsubsection{Isosceles Triangle}
+Given a triangle ABC, with base AB, and $l_{AC}=l_{BC}$, the base angles are equal ($\angle ABC = \angle BAC$).
+\[
+\text{Rule: Base Angles of an Isosceles Triangle}
+\]
+\subsubsection{Equilateral Triangle}
+Given a triangle ABC, where all sides are of uniform length, all interior angles are equal.
+\[
+\text{Rule: All angles in an equilateral triangle are equal.}
+\]
+
+\subsection{Polygons}
+Given a regular polygon, the sum of interior angles is found as follows.
+\begin{equation}
+\text{Sum of Interior Angles}=180\degree\left(n-2\right)
+\end{equation}
+Therefore, each interior angle can be calculated as follows.
+\begin{equation}
+\text{Interior Angles}=\frac{180\degree\left(n-2\right)}{n}
+\end{equation}
+
+
+\section{Congruence \& Similarity}
+\subsection{Congruence}
+Two figures are congruent if they have the exactly the same shape and the same size. Two polygons are congruent only if all the corresponding angles and all the corresponding sides are equal. This rule gives rise to a series of congruence tests which are detailed below.
+
+\subsection{Congruence Tests}
+\subsubsection{SSS Test}
+Two figures are congruent if all the corresponding sides are equal. This test is known as the S-S-S congurence test.
+
+\subsubsection{SAS Test}
+Two figures are congruent if two sides and the included angle are equal. This test is known as the S-A-S congurence test.
+
+\subsubsection{AAS Test}
+Two figures are congruent if any two angles and a side are equal.  This test is known as the A-A-S congurence test.
+
+\subsubsection{RHS Test}
+Two right angled triangles are congruent if the hypotenuse and the length of any side is equal. This test is known as the RHS congruence test.
+
+\section{Similarity}
+Two figures are similar if they have the same shape. Two polygons are similar only if all of the corresponding angles are equal, and the radio of the lengths of their corresponding sides are equal. This rule gives rise to a series of similarity tests which are detailed below.
+
+\subsection{Similarity Test}
+\subsubsection{SSS Test}
+Two figures are similar if the ratios of all the corresponding sides are equal. This test is known as the S-S-S similarity test.
+
+\subsubsection{AA Test}
+Two figures are similar if any two angles are equal. This test is known as the A-A similarity test.
+
+\subsubsection{SAS Test}
+Two figures are similar if the ratios of two corresponding sides and the included angle are equal. This test is known as the S-A-S similarity test.
+
+\subsection{Relation of Similar Plane Figures}
+Given two similar figures,
+\begin{equation}
+\frac{A_1}{A_2}=\left(\frac{l_1}{l_2}\right)^2
+\end{equation}
+Given two triangles with similar heights,
+\begin{equation}
+\frac{A_1}{A_2}=\frac{h_1}{h_2}
+\end{equation}
+
+\subsection{Relation of Similar Solids}
+Given two similar solids,
+\begin{equation}
+\frac{V_1}{V_2}=\left(\frac{l_1}{l_2}\right)^3\equiv \frac{m_1}{m_2}
+\end{equation}
+
+\section{Circle Properties}
+
+\subsubsection{Perpendicular Bisector of Chord}
+The perpendicular bisector $OM$ of the chord passes through the centre of the circle.
+\begin{equation}
+AB \perp OM \text{ and } AO = OB
+\end{equation}
+
+\subsubsection{Equal Chords}
+Two chords of equal length are equidistant from the centre of the circle.
+\begin{equation}
+AB = XY \text{ then } M_{AB}O = M_{XY}O
+\end{equation}
+
+\subsubsection{Tangent Perpendicular to Radius}
+The tangent to a circle is perpendicular to its radius at the point of contact.
+\begin{equation}
+AB \perp CO
+\end{equation}
+Where C is the point of contact with the circle of the line AB.
+
+\subsubsection{Tangents from External Point}
+The tangents of a circle which originate from a common external point are equal. This rule is written as, "Tangents from External Point".
+\begin{equation}
+AP = BP \text{ and } OB = OA
+\end{equation}
+Where tangents AP and BP, where A and B are the points of contact with the circle.
+
+\subsubsection{Angle at Center}
+The angle at a centre of the circle is twice that at the circumference, provided they subtend the same sector.
+\begin{equation}
+\theta_{c} = 2\theta_{r}
+\end{equation}
+
+\subsubsection{Angle in a Semicircle}
+The angle formed by two line segments in a semicircle is always at 90\degree.
+\begin{equation}
+\theta = 90\degree
+\end{equation}
+
+\subsubsection{Angles in Same Segment}
+Angles in the same segment are equal.
+
+\subsubsection{Angles in Opposite Segments}
+Angles in opposite segments are supplementary.
+
+\section{Trigonometry}
+\subsection{Pythagoras' Theorem}
+Pythagoras' Theorem states that the sum of the squares of the two sides of a right angled triangle is equal to the square of the hypotenuse.
+\begin{equation}
+a^2+b^2=c^2
+\end{equation}
+
+\subsection{Trigonometric Ratios}
+There are 3 trigonometric functions to be aware of. Sine, cosine, and tangent. 
+\begin{equation}
+sin{\theta}= \frac{O}{H}
+\end{equation}
+\begin{equation}
+cos{\theta} = \frac{A}{H}
+\end{equation}
+\begin{equation}
+\tan{\theta} = \frac{O}{A}
+\end{equation}
+There trigonometric ratios apply to right-angled triangles only. The simple mnemonic, TOA CAH SOH, is helpful in memorising these functions. 
+
+\subsection{Area of Triangle}
+Apart from the typical $\frac{1}{2}bh$ formula for calculating the area of a triangle, there is one which makes use of trigonometry.
+\begin{equation}
+\frac{1}{2}ab \sin{C}
+\end{equation}
+Where a and b are sides of the triangle, and C is the included angle.
+
+\subsection{Sine Rule}
+Given a triangle ABC, the sine rule states that,
+\begin{equation}
+\frac{A}{\sin{A}} = \frac{B}{\sin{B}} = \frac{C}{\sin{C}}
+\end{equation}
+
+\subsection{Cosine Rule}
+Given a triangle ABC,
+\begin{equation}
+a^2 = b^2 + c^2 - 2bc\cos{A}
+\end{equation}
+Where $a$, $b$, and $c$ are sides of the triangle, and $A$ is the angle opposite $a$
+
+\section{Mensuration}
+\subsection{Area of a Triangle}
+The area of a triangle is calculated as follows.
+\begin{equation}
+A=\frac{1}{2}bh
+\end{equation}
+Where A is the area of the triangle, b is the length of the base, and h is the length of the height.
+
+\subsection{Area of a Trapezium}
+The area of a trapezium is calculated as follows.
+\begin{equation}
+A=\frac{1}{2}\left(a+b\right)h
+\end{equation}
+
+\subsection{Area of a Parallelogram}
+The formulae for calculating the area of a parallelogram is equal to the formulae for calculating that of a square.
+\begin{equation}
+A=bh
+\end{equation}
+
+\subsection{Circles}
+\subsubsection{Area}
+The area of a circle is calculated as follows.
+\begin{equation}
+A=\pi r^2
+\end{equation}
+Where A = area of the circle, $\pi\approx 3.14159$, and r is the radius of the circle.
+
+\subsubsection{Circumference}
+The circumference of a circle is calculated as follows.
+\begin{equation}
+A=2\pi r = \pi D
+\end{equation}
+Where A = area of the circle, $\pi \approx 3.14159$, r = radius of the circle, D = diameter of the circle.
+
+\subsection{Cubes \& Cuboids}
+The volume of cubes and cuboids are calculated as follows.
+\begin{equation}
+V=lbh
+\end{equation}
+Where V is the volume, l is the length, b is the breadth, and h is the height.
+\newline
+\newline
+The total surface area of cubes and cuboids is equal to the sum of surface area of all sides.
+
+\subsection{Cylinders}
+\subsubsection{Surface Area}
+The surface area of a cylinder is found as follows.
+\begin{equation}
+A=2\pi r \left(h + r\right)
+\end{equation}
+Where A is the surface area, $\pi \approx 3.14152$, h is the height, and r is the radius.
+
+\subsubsection{Volume}
+The volume of a cylinder is found as follows.
+\begin{equation}
+V=\pi r^2 h
+\end{equation}
+Where V is the volume, $\pi \approx 3.14152$, and h is the height, and r is the radius.
+
+\subsection{Spheres}
+\subsubsection{Surface Area}
+The surface area of a sphere is calculated as follows.
+\begin{equation}
+A = 4\pi r^2
+\end{equation}
+Where A is the surface area, $\pi \approx 3.14152$, and r is the radius.
+
+\subsubsection{Volume}
+The volume of a sphere is calculated as follows.
+\begin{equation}
+V=\frac{4}{3}\pi r^3
+\end{equation}
+Where V is the volume, $\pi \approx 3.14152$, and r is the radius.
+
+\subsection{Pyramid}
+The surface area of a pyramid is calculated as follows.
+\begin{equation}
+A = \text{Sum of Areas of All Sides}
+\end{equation}
+The volume of a pyramid is calculated as follows.
+\begin{equation}
+V=\frac{1}{3}\times base area \times h
+\end{equation}
+Where V is the volume, and h is the height.
+
+\subsection{Cone}
+\subsubsection{Surface Area}
+The curved surface area of a cone is calculated as follows.
+\[
+\pi r l
+\]
+The base area of a cone can be calculated as follows.
+\[
+\pi r^2
+\]
+Therefore, the total surface area is calculated as follows.
+\begin{equation}
+\pi r l + \pi r^2
+\end{equation}
+
+\section{Arc Length, Sector Area, and Area of a Segment}
+\subsection{Radians}
+Radians is a measure of angle. $1 rad = \frac{180}{\pi}\degree$
+\[
+\pi \text{ rad} = 180\degree
+\]
+
+\subsection{Arc Length}
+The Arc Length $s$ is calculated as follows.
+\begin{equation}
+s = r\theta
+\end{equation}
+Where $s$ is the arc length, $r$ is the radius, and $\theta$ is the angle in radians.
+\begin{equation}
+s = \frac{\pi r \theta}{180\degree}
+\end{equation}
+Where $s$ is the arc length, $r$ is the radius, $\pi \approx 3.14152$ and $\theta$ is the angle in degrees.
+
+\subsection{Sector Area}
+The Sector Area $A$ is calculated as follows.
+\begin{equation}
+A=\frac{1}{2}r^2\theta
+\end{equation}
+Where $A$ is the sector area, $r$ is the radius, and $\theta$ is the angle in radian.
+\begin{equation}
+A=\frac{\pi r^2 \theta}{360}
+\end{equation}
+Where $A$ is the sector area, $r$ is the radius, $\pi \approx 3.14152$, and $\theta$ is the angle in degrees.
+
+\section{Coordinate Geometry}
+Coordinate Geometry concerns the geometry of figures of a coordinate plane. There are several functions which can be done within the realm of coordinate geometry. 
+
+\subsection{Gradient}
+The gradient of a straight line segment $m$, can be found as follows.
+\begin{equation}
+m=\frac{y_1-y_2}{x_1-x_2}
+\end{equation}
+
+\subsection{Length of Line Segment}
+The length of any straight line segment, given two points, can be found as follows.
+\begin{equation}
+\sqrt{\left(x_1-x_2\right)^2+\left(y_1-y_2\right)^2}
+\end{equation}
+
+\subsection{Equation of a Straight Line}
+The equation of any straight line segment is as follows.
+\begin{equation}
+y=mx+c
+\end{equation}
+Where $m$ is the gradient, and $c$ is the y-intercept.
+\newline
+\newline
+Given one point, and the gradient of the line segment, the equation of any straight line segment can be calculated as follows.
+\begin{equation}
+y-y_1 = m\left(x-x_1\right)
+\end{equation}
+
+\section{Vectors in Two Dimensions}
+Vectors can be represented in two forms. $\overrightarrow{AB}, \textbf{a}, \text{or }\underline{a}.$
+
+\subsection{Operations with Vectors}
+
+The formula for determining the quantity of a vector is as follows.
+\begin{equation}
+| \overrightarrow{AB}| = \sqrt{x^2+y^2}
+\end{equation}
+
+Vectors can be added simply. It is illustrated below.
+\begin{equation}
+\overrightarrow{AO}+\overrightarrow{OB} = \overrightarrow{AB}
+\end{equation}
+Vectors can also be multiplied by a scalar quantity.
+\begin{equation}
+k \left(\overrightarrow{AB}\right) = k\overrightarrow{AB}
+\end{equation}
+
+\subsection{Position Vectors}
+A point can be expressed as a vector from the origin. This is known as the position vectors. In example,
+\begin{equation}
+C\left(x_1,y_1\right) \rightarrow \overrightarrow{OC}= 
+\begin{pmatrix}
+x_1\\
+y_1
+\end{pmatrix}
+\end{equation}
+
+\subsection{Other Useful Properties}
+\subsubsection{When $x=y$,}
+Given $x=y$, 
+\begin{enumerate}
+\item $|x| = |y|$.
+\item $x$ and $y$ act in the same direction.
+\end{enumerate}
+
+\subsubsection{When $x \parallel y$,}
+Then,
+\begin{equation}
+x=ky
+\end{equation}
+Where k is some arbitrary constant.
+
+\subsubsection{Collinearity of Points}
+For two vertices or points to be collinear, they must:
+\begin{enumerate}
+\item lie on the same vector.
+\item pass through a common point.
+\end{enumerate}
+
+
+\chapter{Statistics \& Probability}
+
+
+\end{flushleft}
+\end{document}
